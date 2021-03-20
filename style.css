@@ -16,6 +16,7 @@ nav{
     background-color: black;
     position: sticky;
     top: 0.1px;
+    box-shadow: 0 0 10px #6cf389;
 }
 .image{
     height: 150px;
@@ -37,9 +38,10 @@ a{
 }
 .anchor{
     text-decoration: none;
+    color: aliceblue;
 }
 a:hover{
-    color: antiquewhite;
+    color: rgb(77, 70, 63);
 }
 .list{
     font-weight: bolder;
@@ -105,15 +107,19 @@ a:hover{
       font-size: 30px;
   }
   .btn:hover{
-      background-color:grey;
-      color: rgb(228, 212, 184);
+      background-color:rgb(32, 30, 30);
+      color: rgb(112, 132, 221);
   }
-  /* .con{
-      display: flex;
-      align-items: center;
-      filter: invert(100%);
-      justify-content: center;
-  } */
+  .fkd{
+      float:right;
+  }
+.con{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
 .flexing{
     background-image: url(bg2.jpg);
     background-position: center center;
