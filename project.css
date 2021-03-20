@@ -1,0 +1,96 @@
+body{
+    color: white;
+    margin:0px;
+    padding:0px;
+    background: url("new.jpg");
+    font-family:cursive;
+     
+}
+.box-1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 20px;
+    color: rgb(40,218,224);
+}
+.box-1 img{
+    width :140px;
+}
+
+h1{
+    text-align:center;
+}
+.box-2{
+    display:block;
+    width :60%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+.box-3{
+    position: absolute;
+    right : 34px;
+    top : 20px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: darkturquoise;
+}
+.btn{
+    margin: 10px 9px;
+    /* color:white; */
+    background-blend-mode: lighten;
+    padding: 4px 12px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-blend-mode:screen;
+}
+.btn:hover{
+    color: darkturquoise;
+}
+.container{
+    border: 2px solid white;
+    margin: 66px 550px;
+    padding: 55px;
+    width: 53%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align:center;
+    color:rgb(40, 218, 224);
+
+}
+.container button{
+    display: block;
+    width:66%;
+    padding:9px;
+    margin: 50px auto;
+    font-size:25px;
+    font-family:cursive;
+}
+.box-3 .btn{
+    font-family:cursive;
+}
